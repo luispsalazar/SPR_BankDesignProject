@@ -65,7 +65,6 @@ public class TestSafetyDepositBoxService {
     void test_releaseSafetyDepositBox() {
 	SafetyDepositBox box = new SmallSafetyDepositBox();
 	box.setAlloted(true);
-	System.out.println(box.isAlloted());
 	// comment out the notify() line in the method,
 	// otherwise it will throw an "IllegalMonitorStateException"
 	safetyDepositBoxService.releaseSafetyDepositBox(box);
@@ -74,33 +73,34 @@ public class TestSafetyDepositBoxService {
 
     @Test
     void test_createTwoThreadsAndVerifyThatnoThreadWasKeptWaiting() {
-//	SafetyDepositBox box1 = new SmallSafetyDepositBox();
-//	SafetyDepositBox box2 = new SmallSafetyDepositBox();
-//	safetyDepositBoxes = new LinkedList<>();
-//	safetyDepositBoxes.add(box1);
-//	safetyDepositBoxes.add(box2);
-//	System.out.println(safetyDepositBoxes.size());
+	SafetyDepositBox box1 = new SmallSafetyDepositBox();
+	SafetyDepositBox box2 = new SmallSafetyDepositBox();
+	safetyDepositBoxes = safetyDepositBoxService.getSafetyDepositBoxes();
+	safetyDepositBoxes.add(box1);
+	safetyDepositBoxes.add(box2);
+	System.out.println(safetyDepositBoxes.size());
 
 	Thread thread1 = new Thread();
 	Thread thread2 = new Thread();
 	thread1.start();
 	safetyDepositBox = safetyDepositBoxService.allocateSafetyDepositBox();
+	;
 	safetyDepositBox.setAlloted(true);
-	try {
-	    thread1.wait(5000);
-	} catch (InterruptedException e) {
-	    e.printStackTrace();
-	}
+//	try {
+//	    thread1.wait(5000);
+//	} catch (InterruptedException e) {
+//	    e.printStackTrace();
+//	}
 	safetyDepositBoxService.releaseSafetyDepositBox(safetyDepositBox);
 
 	thread2.start();
 	safetyDepositBox = safetyDepositBoxService.allocateSafetyDepositBox();
 	safetyDepositBox.setAlloted(true);
-	try {
-	    thread1.wait(5000);
-	} catch (InterruptedException e) {
-	    e.printStackTrace();
-	}
+//	try {
+//	    thread1.wait(5000);
+//	} catch (InterruptedException e) {
+//	    e.printStackTrace();
+//	}
 	safetyDepositBoxService.releaseSafetyDepositBox(safetyDepositBox);
 
 	Thread.State state1 = thread1.getState();

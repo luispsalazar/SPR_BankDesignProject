@@ -72,6 +72,11 @@ public class SafetyDepositBoxService {
     public synchronized Optional<SafetyDepositBox> getRelesedSafetyDepositBox() {
 	for (SafetyDepositBox box : safetyDepositBoxes) {
 	    if (!box.isAlloted()) {
+//		try {
+//		    Thread.currentThread().wait(5000);
+//		} catch (InterruptedException e) {
+//		    e.printStackTrace();
+//		}
 		return Optional.of(box);
 	    }
 	}
