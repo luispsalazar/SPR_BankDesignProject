@@ -3,8 +3,12 @@ package javaBankDesignProject;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Customer {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
+public abstract class Customer {
+    @Id
     private long CUSTOMER_ID;
     private static long nextCustomerId = 2000000;
     private String name;

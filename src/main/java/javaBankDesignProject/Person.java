@@ -1,8 +1,5 @@
 package javaBankDesignProject;
 
-import jakarta.persistence.Entity;
-
-@Entity
 public class Person extends Customer {
 
     public Person(String name, String address) {
