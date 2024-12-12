@@ -1,14 +1,19 @@
-package javaBankDesignProject;
+package javaBankDesignProject.account;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import javaBankDesignProject.customer.Company;
+import javaBankDesignProject.customer.Customer;
+import javaBankDesignProject.customer.Person;
+import javaBankDesignProject.safetydepositbox.Address;
 
 public class AccountController {
 
     private List<Customer> customers = new ArrayList<>();
     private List<Account> accounts = new ArrayList<>();
 
-    public Customer createCustomer(String name, String address, String type) {
+    public Customer createCustomer(String name, Address address, String type) {
 	if (type.equals("person")) {
 	    Person person = new Person(name, address);
 	    customers.add(person);

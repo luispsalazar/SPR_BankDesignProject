@@ -1,21 +1,27 @@
-package javaBankDesignProject;
+package javaBankDesignProject.customer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
+import javaBankDesignProject.account.Account;
+import javaBankDesignProject.safetydepositbox.Address;
 
 @Entity
 public abstract class Customer {
+
     @Id
     private long CUSTOMER_ID;
     private static long nextCustomerId = 2000000;
     private String name;
-    private String address;
+
+    @OneToOne
+    private Address address;
     private List<Account> accounts;
 
-    public Customer(String name, String address) {
+    public Customer(String name, Address address) {
 	this.CUSTOMER_ID = nextCustomerId;
 	this.name = name;
 	this.address = address;
@@ -49,11 +55,11 @@ public abstract class Customer {
 	this.name = name;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
 	return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
 	this.address = address;
     }
 }

@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="095fd836-07b2-4e24-bfb9-88c1f2e62069" name="Changes" comment="Updated entries to database">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.fdmgroup/SPRBankDesignProject/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.fdmgroup/SPRBankDesignProject/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/CheckingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/CheckingAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/MainApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/SavingsAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/safetydepositbox/SafetyDepositBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/safetydepositbox/SafetyDepositBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/safetydepositbox/SafetyDepositBoxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/safetydepositbox/SafetyDepositBoxService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javaBankDesignProject/safetydepositbox/SmallSafetyDepositBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javaBankDesignProject/safetydepositbox/SmallSafetyDepositBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/TestAccountControllerRemoveCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/TestAccountControllerRemoveCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/TestDepositAndWithdrawInAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/TestDepositAndWithdrawInAccounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/TestNewCustomerCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/TestNewCustomerCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/safetydepositbox/TestSafetyDepositBoxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/javaBankDesignProject/safetydepositbox/TestSafetyDepositBoxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.fdmgroup/SPRBankDesignProject/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.fdmgroup/SPRBankDesignProject/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +49,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/luisp/eclipse-workspace/SPRBankDesignProject",
+    "last_opened_file_path": "C:/Users/luisp/eclipse-workspace/FDMCodingExercises",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

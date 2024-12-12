@@ -1,8 +1,11 @@
-package javaBankDesignProject;
+package javaBankDesignProject.customer;
+
+import javaBankDesignProject.account.Account;
+import javaBankDesignProject.safetydepositbox.Address;
 
 public class Person extends Customer {
 
-    public Person(String name, String address) {
+    public Person(String name, Address address) {
 	super(name, address);
     }
 

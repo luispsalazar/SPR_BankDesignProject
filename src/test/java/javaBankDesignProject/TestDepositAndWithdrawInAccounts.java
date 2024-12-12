@@ -4,6 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javaBankDesignProject.account.Account;
+import javaBankDesignProject.account.CheckingAccount;
+import javaBankDesignProject.account.SavingsAccount;
+
 public class TestDepositAndWithdrawInAccounts {
 
     Account savingsAccount1;

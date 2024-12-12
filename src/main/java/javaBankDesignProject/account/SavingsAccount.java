@@ -1,4 +1,4 @@
-package javaBankDesignProject;
+package javaBankDesignProject.account;
 
 public class SavingsAccount extends Account {
 

@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javaBankDesignProject.customer.Customer;
+
 public class TestNewCustomerCreation {
 
     Customer person1;
@@ -11,8 +13,8 @@ public class TestNewCustomerCreation {
 
     @BeforeEach
     public void setUp() {
-	person1 = new Person("person1", "address1");
-	company1 = new Company("company1", "address2");
+//	person1 = new Person("person1", "address1");
+//	company1 = new Company("company1", "address2");
     }
 
     @Test
